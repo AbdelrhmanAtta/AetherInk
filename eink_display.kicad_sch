@@ -1971,16 +1971,6 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 93.98) (xy 76.2 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "335eb374-01c2-4423-ba35-849fee1bc1ae")
-	)
-	(wire
-		(pts
 			(xy 177.8 115.57) (xy 184.15 115.57)
 		)
 		(stroke
@@ -2507,7 +2497,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "df4abee4-86c2-42b4-8298-d112be7e5082")
+			(uuid "8581eba7-0978-41a2-bdef-3bb231f517f9")
 		)
 		(instances
 			(project "AetherInk"
@@ -2583,10 +2573,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "80f2da66-bf2c-43a7-bde5-59351f5aa065")
+			(uuid "9b9ec6f3-8e9e-478c-a130-36e7ab6af8d1")
 		)
 		(pin "1"
-			(uuid "b192d22f-8cb8-4d22-bbcd-816a7cc18891")
+			(uuid "0a1a5e9d-a0e9-40bb-bf47-53f9039dc460")
 		)
 		(instances
 			(project "AetherInk"
@@ -2665,85 +2655,85 @@
 			)
 		)
 		(pin "23"
-			(uuid "a5b403d7-f301-4c20-b501-83d4c0d8a153")
+			(uuid "5593b572-9d74-4356-bf64-628a191dab26")
 		)
 		(pin "20"
-			(uuid "0c2a4c3d-8742-44ae-bcd3-0ce676207396")
+			(uuid "e7397c20-4849-419e-836b-d7ed4bc20dca")
 		)
 		(pin "22"
-			(uuid "8a9674d8-983b-4303-8340-d58b4c341ee3")
+			(uuid "a0c3e006-3801-4f53-9d42-e8247552e37f")
 		)
 		(pin "21"
-			(uuid "a95f891c-891a-4e87-ba13-408c0d90005b")
+			(uuid "5ae0644e-d3a2-4456-a797-63db5a067136")
 		)
 		(pin "24"
-			(uuid "6486b1e3-40c3-4df4-a95e-911267381f0e")
+			(uuid "8296028c-55ea-4613-9a87-2b89e33e965c")
 		)
 		(pin "19"
-			(uuid "095083e4-12c9-47b2-9d26-1b9d9a29b4c3")
+			(uuid "50c936fe-c188-4759-99d7-e7931aab820b")
 		)
 		(pin "18"
-			(uuid "1c9521c0-0626-4e63-aa42-8dcf876b2738")
+			(uuid "6d5abee0-4cd7-4d47-be99-39c7e0ab2366")
 		)
 		(pin "17"
-			(uuid "0e1416fc-c861-4011-80e1-c71e30851657")
+			(uuid "bafc24d6-fa17-4d57-a0e1-dda8167a3d95")
 		)
 		(pin "2"
-			(uuid "9b2406f5-3546-4e6d-b968-aeac49631a1c")
+			(uuid "8abc45f5-2726-4409-ac3f-756c4685660f")
 		)
 		(pin "1"
-			(uuid "460a6cbf-06d1-448f-8d68-d00ebdc602fe")
+			(uuid "fdaa1569-ebe2-4366-8099-ddb107f4e8db")
 		)
 		(pin "7"
-			(uuid "15e6cd34-2ac6-4fba-b010-a447aeb139da")
+			(uuid "6f0ab8c9-45e3-40f5-9d50-b0bbe1c99527")
 		)
 		(pin "8"
-			(uuid "0e22e3c3-da6c-44a8-8b91-76eae46acc7b")
+			(uuid "f736161c-0ba1-460a-9be7-cb39f50159f6")
 		)
 		(pin "4"
-			(uuid "c04df7d4-30a2-4a14-9422-e5c04945af28")
+			(uuid "f531ae3d-bfea-4ea8-9216-4087458ff274")
 		)
 		(pin "16"
-			(uuid "ee2b9044-2d5f-4a9d-94f0-06c65f8b7a4f")
+			(uuid "3bb73cf2-94ee-4329-861d-981981f10a9f")
 		)
 		(pin "15"
-			(uuid "53b21923-66e9-41b1-8ee1-560ccedac987")
+			(uuid "113015d7-5178-4e86-8bfa-57fe076b4bc1")
 		)
 		(pin "14"
-			(uuid "5b6039c5-3dc6-4f80-92ad-abb4af05b0ee")
+			(uuid "95c116da-1819-4a64-a39c-ae45c6c22b2a")
 		)
 		(pin "13"
-			(uuid "c505907e-7236-40e1-abc6-3440f4c7fa49")
+			(uuid "e24b47ad-7c89-41a9-9242-2748c0625f09")
 		)
 		(pin "12"
-			(uuid "b19200e3-b829-448d-b684-97edddc9c085")
+			(uuid "842794c0-1cda-44b3-8395-58a49adaefe8")
 		)
 		(pin "11"
-			(uuid "66cf703a-6893-43ba-8088-067d3b278a56")
+			(uuid "dcc50bc2-b063-4821-a3d9-4ba23a2ac07d")
 		)
 		(pin "10"
-			(uuid "f16c0f79-d9d7-4422-9817-8cdfba7b24ac")
+			(uuid "2905f8d3-d628-4433-b5df-e25717ad5343")
 		)
 		(pin "9"
-			(uuid "53c8e61a-9c3d-49bb-a8c8-c6e4c7aab25b")
+			(uuid "974c63cc-02a6-40c1-8fdd-1b2cd687e9ad")
 		)
 		(pin "6"
-			(uuid "64f7e42d-8438-4d40-927c-b9569dfaa090")
+			(uuid "86eb23c3-b338-49a0-9ce2-c95f598f0e77")
 		)
 		(pin "3"
-			(uuid "b1bc6402-2a6b-4705-af67-f2fbff3b5084")
+			(uuid "99fe460e-a343-4324-a649-5825b3ceff23")
 		)
 		(pin "5"
-			(uuid "ada8ba5f-8f57-4562-92cd-ff76820a1960")
+			(uuid "0b985699-1974-45fa-8c27-39d65e6112e7")
 		)
 		(pin "24"
-			(uuid "d844158a-01b9-4b17-8d2f-ed6e59e5813b")
+			(uuid "f3cafc27-0a95-4f60-af50-b420b64c4bc8")
 		)
 		(pin "26"
-			(uuid "5351434d-4986-4464-9afc-767e6ef0c6fd")
+			(uuid "608c9292-1a00-43ed-9326-11d33f400d88")
 		)
 		(pin "25"
-			(uuid "fb0e1e4b-319e-402d-a071-32aaed7f5a1b")
+			(uuid "2ca2b5cc-9650-4b04-9c4b-3f99569db42b")
 		)
 		(instances
 			(project "AetherInk"
@@ -2818,10 +2808,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d7508652-7ee6-449c-bf5f-246224f5a7c7")
+			(uuid "71b7271e-852e-499a-8932-5e76dc4e2dc3")
 		)
 		(pin "1"
-			(uuid "560a556a-7d45-4472-b553-080eeb147508")
+			(uuid "ffaadae1-06eb-4122-a0d7-ca899ba70a83")
 		)
 		(instances
 			(project "AetherInk"
@@ -2901,7 +2891,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "a0a02efd-f8c5-49df-bdc2-00a5e1bb41a8")
+			(uuid "59eb808f-b089-422f-8593-74bce4c5852d")
 		)
 		(instances
 			(project "AetherInk"
@@ -2935,7 +2925,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "SI1304BdL"
 			(at 82.55 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3013,13 +3003,13 @@
 			)
 		)
 		(pin "2"
-			(uuid "a1e27b17-7183-4a22-b2ff-b8871cec2249")
+			(uuid "95d66955-8c31-4da5-bf23-31bcae642a81")
 		)
 		(pin "3"
-			(uuid "93256604-6019-4358-ae6a-beaeff634d63")
+			(uuid "c7b293d9-917d-4179-bc02-ebfa5949b532")
 		)
 		(pin "1"
-			(uuid "a5d7b4e6-d8bf-49ec-a2d4-9deb9eec46f1")
+			(uuid "1bd68594-9c48-4bd0-a844-fc5710d3ed0c")
 		)
 		(instances
 			(project "AetherInk"
@@ -3098,7 +3088,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "8de10129-7f57-4e6e-a6ab-a4fb0c87d061")
+			(uuid "6c09200b-58e2-49a9-9e21-62edeeea3963")
 		)
 		(instances
 			(project "AetherInk"
@@ -3176,7 +3166,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "637046dc-4926-4d45-a0f9-01c7d7195fe5")
+			(uuid "d4de39fc-8757-4a28-8a17-862bb377e9c4")
 		)
 		(instances
 			(project "AetherInk"
@@ -3256,7 +3246,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "c861eca4-f7b9-452b-bf8a-2f7a36cfdc29")
+			(uuid "67e9d383-19b5-43b8-8c78-32be196dce2a")
 		)
 		(instances
 			(project "AetherInk"
@@ -3332,10 +3322,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "3f946d71-ca5b-4e90-96f5-536c05c566cf")
+			(uuid "41172f3d-d76f-4b4a-b870-f5e1f756baf1")
 		)
 		(pin "1"
-			(uuid "f3ec106d-5f5e-4a36-b29f-117e33eced1e")
+			(uuid "533917c9-5500-434e-ad98-5397cfe1f8d1")
 		)
 		(instances
 			(project "AetherInk"
@@ -3414,7 +3404,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ee31c46f-4c1f-4ae3-bd28-7c6525ff44de")
+			(uuid "27fd10b9-e7d9-48d3-9bfd-1c06201243e1")
 		)
 		(instances
 			(project "AetherInk"
@@ -3491,10 +3481,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "150a19e6-f5a4-4e72-98b5-fe4d487891d6")
+			(uuid "87c92cbb-5d6c-446c-ad3e-b0531db068f1")
 		)
 		(pin "2"
-			(uuid "f13684a1-2f82-4542-a37a-f4f2ed16d2cc")
+			(uuid "e6b299c9-6420-4332-9dc7-f15d4f6cb2aa")
 		)
 		(instances
 			(project "AetherInk"
@@ -3573,10 +3563,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "e4d3c809-f543-4ac8-a134-40e8bcfb01ce")
+			(uuid "3001dce4-6247-4701-8676-afc1f475b696")
 		)
 		(pin "1"
-			(uuid "74514857-3199-494c-b199-f84f30ae7905")
+			(uuid "08b9284d-a729-492c-92a1-6d9c21b43ad5")
 		)
 		(instances
 			(project "AetherInk"
@@ -3652,10 +3642,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "d33b399d-b937-44d3-a0cf-66e598439c46")
+			(uuid "527d88c6-b014-4226-9e19-74cc29b5c254")
 		)
 		(pin "1"
-			(uuid "ffd51ddc-b322-433f-87f8-b65f0f6d37fa")
+			(uuid "3397967c-bcf7-4e86-b98c-8a15a5fb731d")
 		)
 		(instances
 			(project "AetherInk"
@@ -3668,7 +3658,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 76.2 90.17 0)
+		(at 78.74 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3679,7 +3669,7 @@
 		(fields_autoplaced yes)
 		(uuid "710f973b-df0a-491a-bcd8-e009ed6d234f")
 		(property "Reference" "#PWR016"
-			(at 76.2 96.52 0)
+			(at 78.74 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3690,7 +3680,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 76.2 95.25 0)
+			(at 78.74 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3701,7 +3691,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 76.2 90.17 0)
+			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3712,7 +3702,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 76.2 90.17 0)
+			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3723,7 +3713,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 76.2 90.17 0)
+			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3734,7 +3724,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "999e46d1-35eb-43d0-b01d-ed7e0e8e9617")
+			(uuid "c325ab66-d518-42b1-ba28-f94a6d6d1de0")
 		)
 		(instances
 			(project "AetherInk"
@@ -3811,10 +3801,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "85a17fa7-ae92-4302-9cb8-aedc02d2b8ea")
+			(uuid "61ba5c79-fd5c-4ef4-b020-6cefb501ebac")
 		)
 		(pin "1"
-			(uuid "739f6e1b-d43d-48c4-b877-dfeb77b33ce9")
+			(uuid "8a7da5d3-70d0-4acd-8d76-a122f2dc8026")
 		)
 		(instances
 			(project "AetherInk"
@@ -3893,7 +3883,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "fe90e937-fb44-40ea-96bc-1f79bf89e4df")
+			(uuid "1936a822-1d53-4117-bc10-08b48419294d")
 		)
 		(instances
 			(project "AetherInk"
@@ -3972,7 +3962,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "cf0e3e75-509f-4677-86cd-d9379310efa9")
+			(uuid "a7e006d7-c807-4a18-a07b-d336e5a64679")
 		)
 		(instances
 			(project "AetherInk"
@@ -4048,10 +4038,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "66b00092-6ef9-4a16-b382-01bf5cb8cf7f")
+			(uuid "c0386fe3-acd9-44e0-841f-4408eebab2b6")
 		)
 		(pin "1"
-			(uuid "f34205ec-bd0b-45a9-9a4f-bb2f6c39b5d5")
+			(uuid "02673cd6-9dac-4693-9276-2889ea1a67cc")
 		)
 		(instances
 			(project "AetherInk"
@@ -4131,7 +4121,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "562426d6-efec-4931-9cfd-34edf1ac6f31")
+			(uuid "e6041f3e-5470-4979-9376-7763c609beb5")
 		)
 		(instances
 			(project "AetherInk"
@@ -4207,10 +4197,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "024fac0d-64cb-4d70-94ac-1e94702954ea")
+			(uuid "9bf2ccfa-19ed-4b50-8f42-5f304bd82bdd")
 		)
 		(pin "1"
-			(uuid "998ee6b2-e41b-444e-b8d4-7b86d82bdcfb")
+			(uuid "357c6c0e-5a6b-415c-b762-52b0ebb55493")
 		)
 		(instances
 			(project "AetherInk"
@@ -4289,7 +4279,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "920676a4-c1ba-4ed6-a00f-da08610670f4")
+			(uuid "68437f1f-ba82-45c2-a90b-c20ba9739969")
 		)
 		(instances
 			(project "AetherInk"
@@ -4366,10 +4356,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "c456574f-f89c-47ef-916e-d050ecd24ab5")
+			(uuid "f0a43247-48b4-4f58-8636-48db35d76eb8")
 		)
 		(pin "2"
-			(uuid "fa13d26a-df3e-4c35-8603-3c304b0e8c76")
+			(uuid "740f2155-d156-47c0-84c3-39a58a5c4180")
 		)
 		(instances
 			(project "AetherInk"
@@ -4449,7 +4439,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "ae463f38-58eb-40b6-a561-89e789ac79c0")
+			(uuid "6df57611-a7a3-4185-b222-ec0fb11f4be0")
 		)
 		(instances
 			(project "AetherInk"
@@ -4527,7 +4517,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2869384-db33-4a21-8069-7dce0178c65a")
+			(uuid "71f64b57-027e-4e05-93a7-d0b9dda3cc5a")
 		)
 		(instances
 			(project "AetherInk"
@@ -4603,10 +4593,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7fa67b89-a10b-4f0a-bebd-65951e206c38")
+			(uuid "cfb4c666-aa90-4dcb-86ec-14fcde0b2219")
 		)
 		(pin "1"
-			(uuid "242a7cbd-7a63-4319-adf0-c6f3c0c38a80")
+			(uuid "f345b419-e367-4d35-b559-359e531201ed")
 		)
 		(instances
 			(project "AetherInk"
@@ -4682,10 +4672,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "7c7b15e7-ec1a-4959-9d03-9c22ca06fee8")
+			(uuid "53f367b3-52f5-422e-b2a7-5b5bc82b6ef0")
 		)
 		(pin "1"
-			(uuid "22444baf-abdb-4c6c-b149-c4a1ebe5fbb6")
+			(uuid "7f3789e9-8035-4f1d-b5a7-d1d54f1a65a7")
 		)
 		(instances
 			(project "AetherInk"
@@ -4763,7 +4753,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "0166bdf2-38a9-465b-9601-e05b13b9e43c")
+			(uuid "4c61488e-6074-4f8c-9324-9fcbb1d3497d")
 		)
 		(instances
 			(project "AetherInk"
@@ -4843,7 +4833,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3f41b5ac-2e00-4f07-b7b7-d310e465b5bb")
+			(uuid "714983b4-9907-4681-a584-408e79897f92")
 		)
 		(instances
 			(project "AetherInk"
@@ -4919,10 +4909,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "a29cff8b-e2e8-46b0-bb27-63990215d044")
+			(uuid "045c945c-f3e7-40e5-924d-95249fbcf6ec")
 		)
 		(pin "1"
-			(uuid "f593e0be-03b6-4dac-bcd8-702a3eb7e932")
+			(uuid "20e1e189-2247-4126-ae9e-c5a4bf49f021")
 		)
 		(instances
 			(project "AetherInk"
@@ -4999,10 +4989,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "d716362f-6bbf-40c9-80d2-6e24ff3bf2ff")
+			(uuid "b807dadb-85b7-4b14-be6c-71bdac896759")
 		)
 		(pin "2"
-			(uuid "e0385739-dea3-47d6-ad38-d6ce17682b03")
+			(uuid "87b6afbb-bd4c-4771-8e34-df68e3f3f072")
 		)
 		(instances
 			(project "AetherInk"
@@ -5080,7 +5070,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "29481d86-3629-41f8-9076-15c07b894cd4")
+			(uuid "9d3d43ce-06eb-4db6-bc14-34e58610ffea")
 		)
 		(instances
 			(project "AetherInk"
@@ -5156,10 +5146,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "cde811a0-d6e2-46fc-8350-41f15a75ed8a")
+			(uuid "e8fbdc0a-3129-4aa8-8cf1-a75b725a46b9")
 		)
 		(pin "1"
-			(uuid "9fb85e20-bc30-4f76-ab52-9a38d3838195")
+			(uuid "c2b1fe22-97c4-49a8-a3c4-d8d8fa28efef")
 		)
 		(instances
 			(project "AetherInk"
@@ -5238,7 +5228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "50240d6f-e2a8-4b40-b423-5f57ed8f2e01")
+			(uuid "a6d630bd-fb6c-45ce-bbf4-e156cf9f13e6")
 		)
 		(instances
 			(project "AetherInk"
@@ -5314,10 +5304,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "586a85ff-8e75-48be-b6c6-30b27c400689")
+			(uuid "47bfe1c0-8d5d-473b-aa47-ef28cd3506bf")
 		)
 		(pin "1"
-			(uuid "8292bebe-b9cb-484c-9288-fc108726597a")
+			(uuid "3598c9b0-38eb-44a0-80e5-d96dc7b78ef9")
 		)
 		(instances
 			(project "AetherInk"
@@ -5396,7 +5386,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3c567942-077c-4795-9ab5-8268e966db9e")
+			(uuid "103222c9-4508-4bcb-9ee6-1f2b38d83972")
 		)
 		(instances
 			(project "AetherInk"
@@ -5473,7 +5463,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "56b500d3-0bd5-4e47-bbbd-2bc85ae39744")
+			(uuid "5251fc5e-02fe-47e6-8015-cf155a6e5395")
 		)
 		(instances
 			(project "AetherInk"
@@ -5552,10 +5542,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "17e5bdaa-ecc2-47e5-942f-ddac5d0c239e")
+			(uuid "47af1270-2df2-4748-8fce-2849ff239bab")
 		)
 		(pin "1"
-			(uuid "71b59e55-ddc9-428b-b3fe-8b7240c951ab")
+			(uuid "f5b8c1ed-437d-487e-9bc0-46c6239ff13a")
 		)
 		(instances
 			(project "AetherInk"

@@ -416,7 +416,7 @@
         "uuid": "bfe982fc-ac83-4361-b0ed-d42b62c23a78"
       }
     ],
-    "used_designators": "L1,C11,#PWR16-19,R1-2,Q1",
+    "used_designators": "SW1-2,R3-4,C12-21,#PWR20-36,U1-2",
     "variants": []
   },
   "sheets": [
@@ -427,6 +427,14 @@
     [
       "3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e",
       "eink display"
+    ],
+    [
+      "f7b150c2-5ccc-4b83-a0af-aeedf8249e2f",
+      "main microcontroller"
+    ],
+    [
+      "98cf7c84-db45-46dc-975b-3c91e5d6f6fa",
+      "st25 ant"
     ]
   ],
   "text_variables": {},
