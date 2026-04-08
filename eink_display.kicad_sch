@@ -160,6 +160,172 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:MBR0530"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MBR0530"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode Schottky"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD?123*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MBR0530_0_1"
+				(polyline
+					(pts
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "MBR0530_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1016,6 +1182,18 @@
 		(uuid "5885d462-86d2-461d-81c2-8ecaf5b53aba")
 	)
 	(junction
+		(at 100.33 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4012b9f7-3652-4f45-a285-1dee37d265d9")
+	)
+	(junction
+		(at 100.33 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5da8e109-5a28-4f61-8fc7-deec70550c6b")
+	)
+	(junction
 		(at 196.85 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1026,6 +1204,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "89c58f77-56b6-49e3-a72f-34e2fefb1cbd")
+	)
+	(junction
+		(at 76.2 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e51d94e3-7489-43aa-b00c-1bd7ce0c84b0")
 	)
 	(no_connect
 		(at 196.85 105.41)
@@ -1115,6 +1299,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 63.5) (xy 100.33 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e277c2d-d367-469d-a372-ce58f9c720a9")
+	)
+	(wire
+		(pts
 			(xy 190.5 52.07) (xy 196.85 52.07)
 		)
 		(stroke
@@ -1132,6 +1326,16 @@
 			(type default)
 		)
 		(uuid "5f37f963-ac50-4291-870e-b15c173c55d2")
+	)
+	(wire
+		(pts
+			(xy 93.98 50.8) (xy 90.17 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "604333e3-0b42-4c08-89f5-509a70fb9684")
 	)
 	(wire
 		(pts
@@ -1165,6 +1369,26 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 63.5) (xy 101.6 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76251493-50d7-4407-af3c-b9a05f6ce80c")
+	)
+	(wire
+		(pts
+			(xy 76.2 50.8) (xy 82.55 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8658f8ae-ec8d-4711-9a17-b6312a75aeaa")
+	)
+	(wire
+		(pts
 			(xy 190.5 82.55) (xy 196.85 82.55)
 		)
 		(stroke
@@ -1172,6 +1396,16 @@
 			(type default)
 		)
 		(uuid "872c3b45-abe6-46f8-8f1c-0118b5e700a2")
+	)
+	(wire
+		(pts
+			(xy 101.6 38.1) (xy 100.33 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a4052b3-e8b6-4241-a946-bdaf91187484")
 	)
 	(wire
 		(pts
@@ -1253,6 +1487,66 @@
 		)
 		(uuid "c08d0519-4372-40fb-b512-edac26803a7a")
 	)
+	(wire
+		(pts
+			(xy 76.2 38.1) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c69ca598-92b8-4559-9aa2-b58cf2d839fb")
+	)
+	(wire
+		(pts
+			(xy 76.2 63.5) (xy 82.55 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dcadf2e8-abec-4008-a814-c4bc5dcc1869")
+	)
+	(wire
+		(pts
+			(xy 76.2 53.34) (xy 76.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de379b24-9ffc-4ee0-b223-d17c37314d0d")
+	)
+	(wire
+		(pts
+			(xy 81.28 38.1) (xy 76.2 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0212f2b-a0f9-4b1b-bb43-26a5ce35a962")
+	)
+	(wire
+		(pts
+			(xy 76.2 60.96) (xy 76.2 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2a1211e-4fd8-4884-945b-131ae9aea9b5")
+	)
+	(wire
+		(pts
+			(xy 100.33 38.1) (xy 88.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffd0203f-2870-4c97-807e-7d038f209547")
+	)
 	(label "BUSY"
 		(at 190.5 85.09 0)
 		(effects
@@ -1262,6 +1556,16 @@
 			(justify left bottom)
 		)
 		(uuid "0409a49e-935b-48cc-bb07-bb2cd77023a2")
+	)
+	(label "VGH"
+		(at 101.6 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22fc36c0-db97-4c18-9629-c9c40ccf5d9b")
 	)
 	(label "GDR"
 		(at 190.5 102.87 0)
@@ -1352,6 +1656,16 @@
 			(justify left bottom)
 		)
 		(uuid "dedeafca-af36-4d69-bdcd-a7ebaaf45935")
+	)
+	(label "VGL"
+		(at 101.6 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed571ae9-418d-4380-8031-b695b6e5cd1d")
 	)
 	(label "D{slash}C"
 		(at 190.5 80.01 0)
@@ -1611,7 +1925,7 @@
 		(dnp no)
 		(uuid "2d70d9aa-15ac-47df-bec3-74640b1b0be8")
 		(property "Reference" "C7"
-			(at 31.242 40.64 0)
+			(at 44.958 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1621,7 +1935,7 @@
 			)
 		)
 		(property "Value" "0.1F/5V5"
-			(at 31.242 42.418 0)
+			(at 44.958 42.418 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1652,9 +1966,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 38.1 41.91 0)
-			(hide yes)
+		(property "Description" "Supercap"
+			(at 30.48 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1703,6 +2016,7 @@
 		)
 		(property "Value" "GND"
 			(at 171.45 62.2299 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1939,6 +2253,7 @@
 		)
 		(property "Value" "GND"
 			(at 179.07 46.9899 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2073,6 +2388,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 86.36 63.5 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "587fb0f3-3370-46b6-b09e-81410fdf42a7")
+		(property "Reference" "D3"
+			(at 86.6775 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 86.6775 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.36 59.055 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 86.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 86.36 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "150a19e6-f5a4-4e72-98b5-fe4d487891d6")
+		)
+		(pin "2"
+			(uuid "f13684a1-2f82-4542-a37a-f4f2ed16d2cc")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 181.61 73.66 180)
 		(unit 1)
@@ -2176,6 +2571,7 @@
 		)
 		(property "Value" "GND"
 			(at 181.61 82.55 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2231,6 +2627,164 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 100.33 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76a3f3ab-cba0-4101-bff6-bc4086d4af76")
+		(property "Reference" "#PWR015"
+			(at 100.33 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf0e3e75-509f-4677-86cd-d9379310efa9")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 76.2 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7bb25e0f-a2a4-4e43-b3a4-aa1b156676c6")
+		(property "Reference" "C9"
+			(at 68.58 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF/50V"
+			(at 68.58 57.658 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 75.2348 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 76.2 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 68.58 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "66b00092-6ef9-4a16-b382-01bf5cb8cf7f")
+		)
+		(pin "1"
+			(uuid "f34205ec-bd0b-45a9-9a4f-bb2f6c39b5d5")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 189.23 95.25 270)
 		(unit 1)
 		(body_style 1)
@@ -2254,6 +2808,7 @@
 		)
 		(property "Value" "GND"
 			(at 185.42 95.2499 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2309,6 +2864,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 100.33 41.91 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7df46798-a953-4c76-8fe8-0434bff619e2")
+		(property "Reference" "C8"
+			(at 107.188 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF/50V"
+			(at 107.188 42.418 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.3648 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "024fac0d-64cb-4d70-94ac-1e94702954ea")
+		)
+		(pin "1"
+			(uuid "998ee6b2-e41b-444e-b8d4-7b86d82bdcfb")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 38.1 45.72 0)
 		(unit 1)
@@ -2333,6 +2967,7 @@
 		)
 		(property "Value" "GND"
 			(at 38.1 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2387,6 +3022,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 86.36 50.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8766eef5-d3a9-486f-b23f-45ddb5b92e4c")
+		(property "Reference" "D2"
+			(at 86.6775 44.45 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 86.6775 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 86.36 46.355 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 86.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 86.36 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c456574f-f89c-47ef-916e-d050ecd24ab5")
+		)
+		(pin "2"
+			(uuid "fa13d26a-df3e-4c35-8603-3c304b0e8c76")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 179.07 54.61 270)
 		(unit 1)
@@ -2411,6 +3126,7 @@
 		)
 		(property "Value" "GND"
 			(at 175.26 54.6099 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2804,6 +3520,7 @@
 		)
 		(property "Value" "GND"
 			(at 185.42 39.3699 90)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2853,6 +3570,86 @@
 			(project "AetherInk"
 				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:MBR0530")
+		(at 85.09 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c841430f-d9be-4c04-adaf-9fcb008d7bf7")
+		(property "Reference" "D1"
+			(at 84.7725 31.75 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MBR0530"
+			(at 84.7725 34.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 85.09 42.545 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.mccsemi.com/up_pdf/MBR0520~MBR0580(SOD123).pdf"
+			(at 85.09 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "30V 0.5A Schottky Power Rectifier Diode, SOD-123"
+			(at 85.09 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d716362f-6bbf-40c9-80d2-6e24ff3bf2ff")
+		)
+		(pin "2"
+			(uuid "e0385739-dea3-47d6-ad38-d6ce17682b03")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -3010,6 +3807,243 @@
 			(project "AetherInk"
 				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
 					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 93.98 50.8 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "da6b280b-52be-400d-a319-7add613948c0")
+		(property "Reference" "#PWR014"
+			(at 93.98 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 93.98 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 93.98 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "50240d6f-e2a8-4b40-b423-5f57ed8f2e01")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 100.33 67.31 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e2c15669-f63a-4e08-8e4d-8a3e46c1e1be")
+		(property "Reference" "C10"
+			(at 107.188 66.04 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF/50V"
+			(at 107.188 67.818 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.3648 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 92.71 67.31 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "586a85ff-8e75-48be-b6c6-30b27c400689")
+		)
+		(pin "1"
+			(uuid "8292bebe-b9cb-484c-9288-fc108726597a")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 100.33 45.72 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e81dd65d-b45b-472f-8c00-42bf5585d909")
+		(property "Reference" "#PWR013"
+			(at 100.33 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3c567942-077c-4795-9ab5-8268e966db9e")
+		)
+		(instances
+			(project "AetherInk"
+				(path "/bfe982fc-ac83-4361-b0ed-d42b62c23a78/3fd8cc8a-67c1-47ec-828a-79dcf24d9a7e"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
